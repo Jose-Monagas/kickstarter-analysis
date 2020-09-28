@@ -13,6 +13,7 @@ For the analysis of this data set, a pivot table was created along with a line c
 ![Outcomes vs Launch Date](Resources/Theater_Outcomes_vs_Launch.png)
 
 Additionally, a table was created to represent the percentage of successful, failed, and canceled plays based on the funding goal amount.
+
 ![Outcome based on Goal Amount](Resources/Outcomes_vs_Goals.png)
 
 There were a couple of difficulties when performing this analysis such as dealing with a very large data set, for which we applied filters and formulas in order to facilitate the process of data wrangling. Additionally, some of the data was not easy to read. For example, the "Deadline" and "Launched_at" columns contained Unix timestamps, which needed to be converted into a day-month-year format that we could interpret.
